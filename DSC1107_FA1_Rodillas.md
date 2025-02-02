@@ -7,11 +7,13 @@ Rodillas
 
 This lecture provides an introduction to data mining and wrangling. In
 this overview, the unit 1 provides three necessary steps in
-understanding data mining. **1. Data Visualization -** This provides a
+understanding data mining. 
+**1. Data Visualization -** This provides a
 graphical representation of data to easily discern and demonstrate the
 data. Data visualization provides a number of insightful ideas such as
 pattern and trends which necessary to make the data understandable and
-easier to communicate it to. **2. Data Transformation -** This is a process
+easier to communicate it to. 
+**2. Data Transformation -** This is a process
 for data mining and wrangling that includes the preparation of data to
 make it more compatible for tools and in a usable format and structure.
 It ensures consistency in data and providing analysis for the given
