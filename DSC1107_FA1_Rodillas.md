@@ -493,7 +493,6 @@ needed. In this case, there are some variables that are spread across
 multiple columns. The table consists of *country, year, type, & count*
 and most likely used for comparing the same country with different cases
 or population which requires a side-by-side analysis.
-<https://feuph.instructure.com/accounts/1/external_tools/9968?launch_type=global_navigation>
 
 ``` r
 table3
