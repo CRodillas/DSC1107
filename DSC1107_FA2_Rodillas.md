@@ -3,7 +3,7 @@ DSC1107_FA2
 Rodillas, Christian Miguel T.
 2025-02-16
 
-###1. Introduction
+## 1. Introduction
 
 ``` r
 library(tidyverse)
@@ -38,7 +38,7 @@ population <- read_csv("population.csv")
     ## ℹ Use `spec()` to retrieve the full column specification for this data.
     ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
 
-\##2. Import
+## 2. Import
 
 ``` r
 cat(paste("The WHO dataset has", nrow(who), " number of rows and ",ncol(who)," number of columns. On the other hand,  the population dataset has", nrow(population), " number of rows and ",ncol(population)," column."))
@@ -76,7 +76,7 @@ print(dimensions_table)
     ## 1 who         7240      60
     ## 2 Population  4060       3
 
-\##3. Tidy Data
+## 3. Tidy Data
 
 ``` r
 print(population)
@@ -367,7 +367,7 @@ print(tuberculosis)
     ## 10 Afghanistan  1997 sp       36 f     25-34       19021226
     ## # ℹ 75,224 more rows
 
-\##4. Data Manipulation
+## 4. Data Manipulation
 
 ``` r
 library(dplyr)
@@ -432,7 +432,7 @@ Federation had the lowest number of cases during the year 2000**, which
 suggests that there is only **0.0006% per 100,000 people** in population
 have TB.
 
-##5. Data Visualization
+## 5. Data Visualization
 
 ``` r
 library(ggplot2)
