@@ -3,7 +3,7 @@ DSC1107_FA2
 Rodillas, Christian Miguel T.
 2025-02-16
 
-##1. Introduction
+###1. Introduction
 
 ``` r
 library(tidyverse)
