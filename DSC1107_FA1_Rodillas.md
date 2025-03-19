@@ -7,21 +7,16 @@ Rodillas
 
 This lecture provides an introduction to data mining and wrangling. In
 this overview, the unit 1 provides three necessary steps in
-understanding data mining. 
-
-**1. Data Visualization -** This provides a
+understanding data mining. 1. Data Visualization - This provides a
 graphical representation of data to easily discern and demonstrate the
 data. Data visualization provides a number of insightful ideas such as
 pattern and trends which necessary to make the data understandable and
-easier to communicate it to. 
-
-**2. Data Transformation -** This is a process
+easier to communicate it to. 2. Data Transformation - This is a process
 for data mining and wrangling that includes the preparation of data to
 make it more compatible for tools and in a usable format and structure.
 It ensures consistency in data and providing analysis for the given
 numerical variables.  
-
-**3. Data Wrangling -** It focuses on cleaning and creating a structure for
+3. Data Wrangling - It focuses on cleaning and creating a structure for
 the data to be fit for a more understandable format for analysis. It
 handles tasks such as missing values and improving the quality of the
 data itself, reducing the risk of poor and inaccurate results.
@@ -111,7 +106,6 @@ ggplot(data = diamonds) +
 ```
 
 ![](DSC1107_FA1_Rodillas_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
-
 **FIGURE 3.** This is an adjusted **histogram** chart to narrow each
 value of the carat, as well as spread on the x-axis for better
 visualization. According to the graph, most of the diamonds, at around
@@ -207,7 +201,6 @@ ggplot(data = diamonds) + geom_boxplot(mapping = aes(x = cut, y = price, fill = 
 ```
 
 ![](DSC1107_FA1_Rodillas_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
-
 **FIGURE 7**. This is an improved **boxplot** to easily differentiate
 the median prices and the cuts of the diamond. As observed in the plot,
 the median prices of the cuts decreases as the quality of the cut
@@ -240,7 +233,6 @@ ggplot(data = diamonds) +
 ```
 
 ![](DSC1107_FA1_Rodillas_files/figure-gfm/unnamed-chunk-9-2.png)<!-- -->
-
 **FIGURE 8 & 9.** This is an example of comparing two similar plots but
 with different customaization. Visualization tools provide a much needed
 importance to easily identify the type of carat on here for example. It
@@ -493,6 +485,7 @@ needed. In this case, there are some variables that are spread across
 multiple columns. The table consists of *country, year, type, & count*
 and most likely used for comparing the same country with different cases
 or population which requires a side-by-side analysis.
+<https://feuph.instructure.com/accounts/1/external_tools/9968?launch_type=global_navigation>
 
 ``` r
 table3
@@ -526,7 +519,6 @@ table4a
     ## 2 Brazil       37737  80488
     ## 3 China       212258 213766
 
-
 In this case, Table4a shows a data that is completely different from the
 other. Instead of having any types, Table4a shows a split by variable
 type, where in this case, the number is separated in the variable of
@@ -543,7 +535,6 @@ table4b
     ## 1 Afghanistan   19987071   20595360
     ## 2 Brazil       172006362  174504898
     ## 3 China       1272915272 1280428583
-
 
 Almost similar to table4a, table4b is an alternative way of grouping
 using a different variable type. The columns for this are also similar
@@ -628,7 +619,6 @@ separate(year, into = c("century", "year"), sep = 2)
     ## 4 Brazil      20      00    80488/174504898  
     ## 5 China       19      99    212258/1272915272
     ## 6 China       20      00    213766/1280428583
-    
 
 This is also useul for a vector of integers if you could be able to
 provide a value for separator, not solely a non-alphanumeric character.
@@ -675,7 +665,6 @@ pivot_wider(names_from = year, values_from = return)
     ## 2     2   0.59   0.92
     ## 3     3   0.35   0.17
     ## 4     4  NA      2.66
-
 
 While desireable, although the NA value still appears as though a
 **missing value** and will not be added in an analysis, it may provide
