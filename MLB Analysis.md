@@ -1,4 +1,4 @@
-DSC1107_FA3_Rodillas
+
 ================
 Rodillas
 2025-02-23
