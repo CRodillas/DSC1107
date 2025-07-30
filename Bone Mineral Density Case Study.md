@@ -1,10 +1,9 @@
-DSC1107_FA4_Rodillas
+
 ================
 Rodillas
 2025-03-07
 
-# 1 Case study: Bone mineral density (30 points for correctness; 7 points for presentation)
-
+# 1 Case study: Bone mineral density
 ## 1.1 Import (2 points)
 
 1.  Using the readxl package, import the data into a tibble called
